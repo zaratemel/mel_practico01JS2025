@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+canvas { 
+  border: 1px solid #000;
+  background: #fff;
+}
+
+
+.ui {
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+
+button {
+  padding:8px 12px;
+  border-radius:6px;
+  border: none;
+  background:#2b7cff;
+  color:white;
+  cursor:pointer;
+}
+
+.hidden { display:none; }
